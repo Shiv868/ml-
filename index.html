@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification with Teachable Machine</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Optional CSS file -->
+</head>
+<body>
+    <h1>Image Classification</h1>
+    <input type="file" accept="image/*" onchange="loadImage(event)">
+    <br>
+    <img id="input-image" width="400">
+    <p id="prediction"></p>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
